@@ -5,7 +5,7 @@
 //
 // Feel free to modify, edit, and use!
 
-const keyDetector = {
+export const keyDetector = {
 
     keydown: '',
     
@@ -32,5 +32,3 @@ const keyDetector = {
         return false
     }
 }
-
-export const keyDetector
