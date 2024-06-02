@@ -6,6 +6,11 @@
 //
 // Feel free to modify, edit, and use!
 
+//To use, add it to your HTML file and (in either this file or in another) do something similar to these lines of code
+//EXAMPLES:
+//keyDetector.isKeyDown("a"); //returns true if user is holding a or A anything else itll return false works with any key.
+//keyDetector.isKeyUp("a"); //returns false if user is holding a or A anything else itll return true works with any key.
+
 const keyDetector = {
 
     keydown: '',
