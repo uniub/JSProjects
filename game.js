@@ -1,5 +1,5 @@
 //Importing Module(s)
-import { keyDetector } from "./KeyDetector";
+import { keyDetector } from "./KeyDetector.js";
 keyDetector.init();
 // Real Code
 
