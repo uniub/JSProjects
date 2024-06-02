@@ -1,11 +1,12 @@
 // KeyBoardInput
+// Removing the hassle from detecting keyboard input :D
 //
 // Version 1.0
 // Made by Jobi#8313
 //
 // Feel free to modify, edit, and use!
 
-export const keyDetector = {
+const keyDetector = {
 
     keydown: '',
     
@@ -32,3 +33,5 @@ export const keyDetector = {
         return false
     }
 }
+
+keyDetector.init();
